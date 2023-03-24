@@ -14,57 +14,83 @@
 <link rel="stylesheet" href="style.css">
 <script src="jalwa.js"></script>
 </head>
-<body>
+<body style="background-color: rgb(63, 74, 70);">
+    <img src="Cook-Re-removebg-preview.png" style="border-radius: 50%; width: 15%; height: 15%;">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
         <span class="navbar-text">RECIPE IN YOUR DEMAND</span>
         </div>
     </nav>  
 <br>
+
+<!-- input tag -->
+<input id="searchbar" onkeyup="search_animal()" type="text"
+name="search" placeholder="Search animals..">
+
+<!-- ordered list -->
+<ol id='list'>
+<li class="animals">Cat</li>
+<li class="animals">Dog</li>
+<li class="animals">Elephant</li>
+<li class="animals">Fish</li>
+<li class="animals">Gorilla</li>
+<li class="animals">Monkey</li>
+<li class="animals">Turtle</li>
+<li class="animals">Whale</li>
+<li class="animals">Aligator</li>
+<li class="animals">Donkey</li>
+<li class="animals">Horse</li>
+</ol>
+
+<!-- linking javascript -->
+<script src="./animals.js"></script>
 <!--HTML Code-->
 <div>
 
     <div class="tab">
         <button class="tablinks" onclick="JavaScript:selectTab('tab1');">
-            Tab1
+            Indian Cuisine
         </button>
         <button class="tablinks" onclick="JavaScript:selectTab('tab2');">
-            Tab2
+            Chinese
         </button>
         <button class="tablinks" onclick="JavaScript:selectTab('tab3');">
-            Tab3
+            Italian
         </button>
         <button class="tablinks" onclick="JavaScript:selectTab('tab3');">
-            Tab3
+            Mexican
         </button>
         <button class="tablinks" onclick="JavaScript:selectTab('tab3');">
-            Tab3
+            Continental
         </button>
         <button class="tablinks" onclick="JavaScript:selectTab('tab3');">
-            Tab3
+            Japanese
         </button>
         <button class="tablinks" onclick="JavaScript:selectTab('tab3');">
-            Tab3
+            Greek
+        </button>
+        <button class="tablinks" onclick="JavaScript:selectTab('tab3');">
+            Spanish
         </button>
     </div>
     <div id="tab1" class="tabcontent">
-        <h3>TAB First</h3>
+        <h3>Indian Cuisine</h3>
         <p>Tutorialspoint Easy To learn</p>
     </div>
     <div id="tab2" class="tabcontent">
-        <h3>TAB Second</h3>
+        <h3>Chinese</h3>
         <p>Hyderabad Telangana, Madhapur Above D-Mart 4th Floor.</p>
     </div>
     <div id="tab3" class="tabcontent">
-        <h3>Tab Third</h3>
+        <h3>Italian</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magniomnis reiciendis ullam perspiciatis labore obcaecati tenetur vitae eteius voluptate optio saepe porro, officiis quos praesentium enim undesequi?</p>
     </div>
     <div id="tab3" class="tabcontent">
-        <h3>Tab Third</h3>
+        <h3>Mexican</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magniomnis reiciendis ullam perspiciatis labore obcaecati tenetur vitae eteius voluptate optio saepe porro, officiis quos praesentium enim undesequi?</p>
     </div>
     <div id="tab3" class="tabcontent">
-        <h3>Tab Third</h3>
+        <h3>Continental</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magniomnis reiciendis ullam perspiciatis labore obcaecati tenetur vitae eteius voluptate optio saepe porro, officiis quos praesentium enim undesequi?</p>
     </div>
     <div id="tab3" class="tabcontent">
